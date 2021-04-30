@@ -1,0 +1,10 @@
+/screenshot/
+/reports/
+/test-output/
+.settings
+.classpath
+/target/maven-archiver/
+/target/test-classes/
+/target/surefire-reports/
+/target/surefire/
+/target/

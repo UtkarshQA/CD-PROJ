@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+	<parameter name="environment" value="UAT" />
+	<parameter name="client" value="MOOSE" />
+	<parameter name="planNumber" value="5505979853" />
+	<parameter name="userPassword" value="Test@123" />
+	
+	<test name="Test 1" preserve-order="true" enabled="true">
+		<classes>
+			<class name="com.MyAccount.TestCases.TS02_Login" />
+		</classes>
+	</test>
+
+	<test name="Test 2" preserve-order="true" enabled="true">
+		<classes>
+			<class name="com.MyAccount.TestCases.TS06_MyProfile" />
+		</classes>
+	</test>
+	
+	<test name="Test 3" preserve-order="true" enabled="true">
+		<classes>
+			<class name="com.MyAccount.TestCases.TS09_Dashboard" />
+		</classes>
+	</test>
+	
+	<test name="Test 4" preserve-order="true" enabled="true">
+		<classes>
+			<class
+				name="com.MyAccount.TestCases.TS08_PaymentCenter_Products" />
+		</classes>
+	</test>
+
+	<test name="Test 5" preserve-order="true" enabled="true">
+		<classes>
+			<class name="com.MyAccount.TestCases.TS07_PaymentMethods" />
+		</classes>
+	</test>
+
+	<test name="Test 6" preserve-order="true" enabled="true">
+		<classes>
+			<class name="com.MyAccount.TestCases.TS10_ProductDetails" />
+		</classes>
+	</test>
+
+	<test name="Test 7" preserve-order="true" enabled="true">
+		<classes>
+			<class name="com.MyAccount.TestCases.TS11_Products" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
